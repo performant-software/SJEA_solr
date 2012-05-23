@@ -511,7 +511,7 @@
 
    <!-- Common fields -->
     <field name="uri" type="string" indexed="true" stored="true"/>
-    <field name="section" type="string" indexed="true" stored="false"/>
+    <field name="section" type="string" indexed="true" stored="true"/>
     <field name="content" type="text_en" indexed="true" stored="true"/>
     <field name="page" type="string" indexed="true" stored="true" />
 
