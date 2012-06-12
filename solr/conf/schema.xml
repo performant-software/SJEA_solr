@@ -258,7 +258,8 @@
 	<!-- Optionally you may want to use this less aggressive stemmer instead of PorterStemFilterFactory:
         <filter class="solr.EnglishMinimalStemFilterFactory"/>
 	-->
-        <filter class="solr.PorterStemFilterFactory"/>
+        <!-- <filter class="solr.PorterStemFilterFactory"/> -->
+        <filter class="solr.ReversedWildcardFilterFactory" />
       </analyzer>
       <analyzer type="query">
         <tokenizer class="solr.StandardTokenizerFactory"/>
@@ -274,7 +275,7 @@
 	<!-- Optionally you may want to use this less aggressive stemmer instead of PorterStemFilterFactory:
         <filter class="solr.EnglishMinimalStemFilterFactory"/>
 	-->
-        <filter class="solr.PorterStemFilterFactory"/>
+        <!-- <filter class="solr.PorterStemFilterFactory"/> -->
       </analyzer>
     </fieldType>
 
@@ -307,7 +308,8 @@
 	<!-- Optionally you may want to use this less aggressive stemmer instead of PorterStemFilterFactory:
         <filter class="solr.EnglishMinimalStemFilterFactory"/>
 	-->
-        <filter class="solr.PorterStemFilterFactory"/>
+        <!-- <filter class="solr.PorterStemFilterFactory"/> -->
+        <filter class="solr.ReversedWildcardFilterFactory" />
       </analyzer>
       <analyzer type="query">
         <tokenizer class="solr.StandardTokenizerFactory"/>
@@ -324,7 +326,7 @@
 	<!-- Optionally you may want to use this less aggressive stemmer instead of PorterStemFilterFactory:
         <filter class="solr.EnglishMinimalStemFilterFactory"/>
 	-->
-        <filter class="solr.PorterStemFilterFactory"/>
+        <!-- <filter class="solr.PorterStemFilterFactory"/> -->
       </analyzer>
     </fieldType>
 
