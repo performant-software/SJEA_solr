@@ -589,9 +589,9 @@
  <!-- copyField commands copy one field to another at the time a document
       is added to the index.  It's used either to index the same field different
       ways, or to add multiple fields to the same field for easier/faster searching.  -->
-	<copyField source="title" dest="catchall"/>
+	<!-- <copyField source="title" dest="catchall"/> -->
 	<copyField source="content" dest="catchall"/>
-    <copyField source="title" dest="content_ascii"/>
+    <!-- <copyField source="title" dest="content_ascii"/> -->
     <copyField source="content" dest="content_ascii"/>
 
 </schema>
